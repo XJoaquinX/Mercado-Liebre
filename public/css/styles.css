@@ -1,0 +1,367 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #ebebeb;
+}
+header{
+    background-color: #EAC926;
+    padding: 15px;
+}
+.logo-Mercado-Liebre{
+    width: 50%;
+}
+.contenedor-busqueda-logo{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.contenedor-total-busqueda{
+    width: 50%;
+    display: flex;   
+    align-items: center;
+}
+.cont-barra-busqueda{
+    background-color: white;
+    border: 0 solid white;
+    border-radius: 5px;
+}
+.barra-busqueda{
+    padding: 12px;
+    border-radius: 5px 0 5px 5px;
+    border: none;
+}
+.busqueda{
+    padding-right: 20px 0;
+    opacity: 0.8;   
+    margin: 0;
+    text-align: right;
+}
+.icono-busqueda{
+    background-color: white;
+    border-radius: 5px 5px 5px 2px;
+    padding: 11px;
+}
+.main-navbar{
+    display: none;
+}
+.compras-cuotas{
+    display: flex;
+    align-items: center;
+}
+.main-navbar ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: #222222;
+    display: inline-block;
+    padding: 5px 0;
+    font-size: 17px;
+}
+div.burger-menu{
+    text-align: center;
+}
+div.burger-menu i{
+    background-color: #0044AA;
+    border-radius: 5px;
+    color: #FFF;
+    font-size: 20px;
+    height: 40px;
+    margin: auto;
+    padding: 10px;
+    width: 40px;
+/* primer 0 arriba, segundo derecha, tercero abajo, cuarta izquierda */
+}
+.banner{
+    font-size: 100%;
+}
+main{
+    width: 90%;
+    margin: 0 auto;
+}
+.caja-de-articulos-principal{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+main section article{
+    width: 100%;
+}
+main p{
+    margin: 0;
+}
+main section article img{
+    width: 100%;
+}
+.caja-precio-descuento{
+    width: 100%;
+    display: flex;
+}
+.precio{
+    padding-left: 10px;
+    width: 30%;
+    font-size: 18px;
+}
+.descuentos{
+    padding-left: 10px;
+    width: 70%;
+    font-size: 16px;
+    padding-top: 2px;
+    color: #39b54a;
+}
+main section h3{
+    font-size: 24px;
+    margin: 20px 0px;
+}
+h3, .descripcion{
+    color: #666;
+}
+
+.descripcion{
+    display: none;
+    padding-left: 10px;
+    margin-top: 20px;
+}
+main section article{
+    background-color: #fff;    
+    margin: 10px 0px;
+    width: 100%;
+}
+main section article:hover{
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+}
+main section article{
+    transition: .3s
+}
+.camionsito{
+    display: block;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    background-color: #FFF;
+    border-radius: 50%;
+    position: absolute;
+    right: 20px;
+    top: -15px;
+    color: #39b54a;
+}
+.detalles-productos{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    border-top: 1px solid #ebebeb;
+    position: relative;
+    padding: 15px 0
+}
+
+
+/* Formulario registro */
+.profile{
+    width: 100%;
+    display: flex;
+}
+.comprar-vender{
+    width: 20%;
+}
+.login{
+    width: 100%;
+    padding: 15px 0;
+    display: flex;
+    justify-content: center;
+}
+.inicio-sesion{
+    width: 100%;
+}
+.form-inicio{
+    width: 60%;
+}
+.registro{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+input{
+    padding: 10px;
+    width: 100%;
+}
+.input-text{
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 35px;
+}
+.cont-botones{
+    width: 100%
+}
+.botones-enviar-borrar{
+    color: white;
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 20px;
+    background-color: #0044AA;
+    padding: 10px;
+}
+/* animaciones */
+main section article:hover .descripcion{
+    display: block;
+    transition: .3s;
+}
+main section article i{
+    transition: transform 1s
+}
+main section article:hover i{
+    transform: rotate(-90deg);
+}
+.botones-enviar-borrar{
+    transition-duration: 1s;
+}
+.botones-enviar-borrar:hover{
+    background-color: #0022AA;
+    transition-property: background-color, #0022AA; 
+}
+footer section div i{
+    transition-duration: 1s;
+}
+footer section div:hover i{
+    background-color: #0022AA;
+    transition-property: background-color, #0022AA;
+}
+
+/* fin animaciones */
+h4{
+    padding: 15px 0;
+}
+.interests{
+    width: 100%;
+    display: flex;
+    flex-direction: column
+}
+.intereses{
+    margin: 15px 0;
+    width: 20%;
+}
+
+
+
+/*---------------- footer ------------------- */
+
+footer p{
+    opacity: 0.7;
+    margin-top: 0%;
+    font-size: 12px;
+    text-align: center;
+}
+footer h3{
+    opacity: 1;
+    margin: 0px;
+    font-size: 16px;
+    text-align: center;
+}
+footer div{
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 2em;
+    color: #1259c3;
+}
+.main-footer{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    background-color: white;
+    width: 100%;
+}
+.section4{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    width: 100%;
+    font-size: 12px;
+    opacity: 0.7;
+}
+.div-section4{
+    background-color: white;
+}
+
+
+
+
+
+/* --------------------------------------------- */
+
+
+
+@media (min-width: 768px){
+    main section article{
+        width: 45%;
+        display: block;
+    }
+    .main-navbar{
+        display: flex;
+        justify-content: space-between;
+    }
+    .cont-burger-menu{
+        display: none;
+    }
+    .caja-de-articulos-principal{
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .descripcion{
+        display: block;
+    }
+    .contenedor-busqueda-logo{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: nowrap;
+    }
+    .compras-cuotas{
+        max-width: 350px;
+        text-align: right;
+    }
+    .main-navbar ul{
+        display: flex;
+    }
+    .main-navbar li{
+        margin: 0 5px;
+    }
+    .main-footer, .section4{
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+@media (min-width: 1024px){
+    main section article{
+        width: 22%;
+    }
+    .contenedor-busqueda-logo, .main-navbar{
+        max-width: 1200px;
+        margin: auto;
+    }
+    .main-navbar li{
+        margin: 0 10px;
+    }
+    .main-navbar a{
+        font-size: 19px;
+    }
+    .compras-cuotas{
+        max-width: none;
+    }
+}
